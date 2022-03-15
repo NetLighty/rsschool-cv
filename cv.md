@@ -1,17 +1,59 @@
+#### CV#1. Markdown & Git
 # Alexander Shukalovich
 
-## Contacts:
-### e-mail: nature.netlight@gmail.com
-### discord: (@NetLighty)
-Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое)
-## Skills:
-### Languages: TypeScript/JavaScipt(main), Java, C++(Basics)
-### Frameworks: React.js(main), Vue(Basics), Node.js, Bootstrap 5
+ E-mail: nature.netlight@gmail.com   \
+ Discord: (@NetLighty)
 
-### Also have experience of working with:
-#### MongoDb, Cloudinary, GitHub, MobX, PostMan, 
-(языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-Примеры кода
-Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
-Образование (включая пройденные курсы и тренинги)
-Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
+## About me
+My story is trivial.
+I'm third-year student of Belarusian State University Of Informatics And Radioelectronics.
+Soon my studying in the university will be finished. That's why I started looking for a future job and stopped on the profession of front-end developer. 
+Nowadays my main goal is to learn new skills and get more development experience in this sphere.
+## Skills and experience
+**Languages:** TypeScript/JavaScipt, Java, C++ (*Basics*)
+
+**Frameworks:** React.js *(React Hooks)*, Vue (*Basics*), Bootstrap 5
+
+**Have some experience of working with:** Html, CSS, MobX, Node.js, Express.js, MongoDb, Cloudinary, Git/GitHub, PostMan
+
+## Code example
+My solution of [Greed is good](https://www.codewars.com/kata/5270d0d18625160ada0000e4) kata in CodeWars:
+```
+function score( dice ) {
+  let result= 0
+  const one= dice.filter(item=> item===1).length
+  const two= dice.filter(item=> item===2).length
+  const three= dice.filter(item=> item===3).length
+  const four= dice.filter(item=> item===4).length
+  const five= dice.filter(item=> item===5).length
+  const six= dice.filter(item=> item===6).length
+  one>=3 ? result+=1000+(one-3)*100 : result+=one*100
+  two>=3 ? result+=200 : ''
+  three>=3 ? result+=300 : ''
+  four>=3 ? result+=400 : ''
+  five>=3 ? result+=500+(five-3)*50 : result+=five*50
+  six>=3 ? result+=600 : ''
+  return result
+}
+```
+### Also can see unfinished version of my [last project.](https://github.com/NetLighty/itra-kurs) 
+
+**Front:** Html, CSS, TypeScript, React, MobX, Bootstrap 5
+
+**Back:** Node.js, JavaScript, MongoDb, express.js 
+
+## Education
+* **2021**_(summer)_ - Completed Itransition Front-end course
+
+* **2019- to present** 
+  + **Belarusian State University Of Informatics And Radioelectronics**
+    + Software-controlled electro-optical systems
+
+* **2010-2019**
+  + **Lelchitsy District Gymnasium**
+    + Physico-mathematical orientation
+
+* **2008-2010** 
+  + **Lelchitskaya Secondary School No. 2**
+
+## English: pre-intermediate
