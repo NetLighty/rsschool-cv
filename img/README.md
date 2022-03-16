@@ -1,2 +1,2 @@
 # rsschool-cv
-https://NetLighty.github.io/rsschool-cv/cv
+https://NetLighty.github.io/rsschool-cv/
